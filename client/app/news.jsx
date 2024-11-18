@@ -14,7 +14,7 @@ const News = () => {
   const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const API_KEY = "c08a23ba5f97ba2d82f44ec09d4ee804"; // Replace with your GNews API key
+  const API_KEY = ""; 
 
   useEffect(() => {
     fetchNews();
